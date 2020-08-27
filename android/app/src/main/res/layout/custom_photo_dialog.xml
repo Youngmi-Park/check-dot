@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|center"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/title_button_theme"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="번역할 점자 사진"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/photoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/camera_button_theme"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="촬영하기"
+        android:textColor="#DE3163"
+        android:textColorLink="#E91E63"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/albumBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/album_button_theme"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="앨범에서 선택"
+        android:textColor="#DE3163"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/cancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/cancel_button_theme"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="취소"
+        android:textColor="#DE3163"
+        android:textSize="18dp" />
+
+</LinearLayout>
