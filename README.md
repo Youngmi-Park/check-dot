@@ -6,5 +6,6 @@
 ### 기능
 1. 점자이미지-한글 번역
 2. 점자 오류 신고 게시판
+3. 점자 공부하기
 
 <img src="https://user-images.githubusercontent.com/53163222/93021740-6957c400-f61f-11ea-9652-6393a4e805ae.PNG" width="70%"></img>
